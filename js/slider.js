@@ -15,17 +15,20 @@ $(document).ready(function(){
 
 		$('#big_slider_inner').width(size*width);
 		$('#big_slider .row').css('min-width',width);
+		$('#big_slider .row').css('max-width',width);
+
 
 		$('.indicator div:first-child').addClass('activeslide')
 	}
 
 
-	$(window).resize(function(){
+	$(window).on('resize orientationchange',function(){
 			width= $(window).width();
 			var size=$('#big_slider .row').size();
 			$('#big_slider').width(width);
 			$('#big_slider_inner').width(size*width);
 			$('#big_slider .row').css('min-width',width);
+			$('#big_slider .row').css('max-width',width);
 	});
 
 

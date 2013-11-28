@@ -591,14 +591,14 @@ a:hover{
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 }
-
+/*
 @font-face {
 		font-weight: normal;
 		font-style: normal;
 		font-family: 'ecoicons';
 		src: url("../fonts/ecoicons/ecoicons.eot");
 		src: url("../fonts/ecoicons/ecoicons.eot?#iefix") format("embedded-opentype"), url("../fonts/ecoicons/ecoicons.woff") format("woff"), url("../fonts/ecoicons/ecoicons.ttf") format("truetype"), url("../fonts/ecoicons/ecoicons.svg#ecoicons") format("svg");
-}
+}*/
 
 /* Icomoon.com */
 
@@ -1050,13 +1050,42 @@ input.gn-search:focus {
 
 
 
-/*@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
+	#big_slider{
+		bottom: 70px
+	}
+
+	.description div[slide="3"]{
+		margin-left:-60px !important;
+	}
+
+	.images img[slide="3"],.images img[slide="4"]{
+		margin-left: -140px !important
+	}
+
 
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+	#big_slider .row br{
+		display: none;
+	}
 
-}*/
+	.description div[slide]{
+		margin-left: 50px !important;
+	}
+
+	.images img[slide="3"]{
+		margin-left: -230px !important
+	}
+
+	.images img[slide="4"]{
+		margin-left: -165px !important
+	}
+	.img{
+		margin-left: -90px !important
+	}
+}
 
 
 
