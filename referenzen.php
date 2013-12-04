@@ -139,5 +139,13 @@ Top Hair GmbH / Terratec GmbH / Wella GmbH / Zweckverband Rheingau</p>
 	<script>
 		$(document).foundation();
   	</script>
+  	<script src="js/classie.js"></script>
+	<script src="js/gnmenu.js"></script>
+	<script>
+		new gnMenu( document.getElementById( 'gn-menu' ) );
+
+
+		$('#gn-menu').addClass('other_all')
+	</script>
 </body>
 </html>

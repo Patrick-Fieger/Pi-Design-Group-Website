@@ -45,15 +45,15 @@ $(document).ready(function(){
 		$('.images img:first-child').addClass('active');
 	});
 
-	// setInterval(function(){
-	// 	if(!$('.indicator').hasClass('dontmove')){
-	// 		if($(".description .active").next("div").length > 0){
-	// 			jump();
-	// 		}else{
-	// 			jumpfirst();
-	// 		}
-	// 	}
-	// },waitforchange)
+	setInterval(function(){
+		if(!$('.indicator').hasClass('dontmove')){
+			if($(".description .active").next("div").length > 0){
+				jump();
+			}else{
+				jumpfirst();
+			}
+		}
+	},waitforchange)
 
 	function jump(){
 			$('div[bg]').animate({opacity: 0},slidetempo);
@@ -101,7 +101,7 @@ $(document).ready(function(){
     });
 
 
-    $(document).on('click','.indicator div',function(){
+    $(document).on('click touchstart','.indicator div',function(){
     	var index=$(this).index();
     	$('div[bg]').animate({opacity: 0},300);
     	$('.images').animate({left:slidewidth},slidetempo,easing);

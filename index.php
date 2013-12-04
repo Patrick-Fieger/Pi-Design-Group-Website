@@ -98,7 +98,7 @@
 						<h2>Medienplanung, Kampagnen, Events</h2>
 					</div>
 				</div>
-				<div class="images">
+				<div class="images" style="left:300px;">
 					<img src="img/intro/exponat_intro1.png">
 					<img src="img/intro/exponat_intro2.png">
 					<img src="img/intro/exponat_intro3.png">

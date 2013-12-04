@@ -37,7 +37,7 @@ $(document).ready(function(){
 
 	
 
-	$(document).on('click', '.indicator div', function(event) {
+	$(document).on('click touchstart', '.indicator div', function(event) {
 		var index=$(this).index();
 
 		$('.indicator div').removeClass('activeslide');
@@ -51,7 +51,7 @@ $(document).ready(function(){
 
 
 
-	$(document).on('click','.icon-arrow-left,.icon-arrow-right',function(){
+	$(document).on('click touchstart','.icon-arrow-left,.icon-arrow-right',function(){
 		var direction;
 
 		if($(this).attr('class')=="icon-arrow-left"){

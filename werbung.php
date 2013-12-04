@@ -82,7 +82,7 @@
 
 		<div style="background:url(img/background_werbung/Background_Einleitungsseite_Werbung.png);" bg="0" class="bg1"></div>
 
-		<div class="website_wrapper">
+		<div class="website_wrapper" wrapper="3">
 
 			<div class="text">
 			<div class="websites">
@@ -142,5 +142,13 @@
 	<script>
 		$(document).foundation();
   	</script>
+  	<script src="js/classie.js"></script>
+	<script src="js/gnmenu.js"></script>
+	<script>
+		new gnMenu( document.getElementById( 'gn-menu' ) );
+
+
+		$('#gn-menu').addClass('other_all')
+	</script>
 </body>
 </html>
