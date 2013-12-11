@@ -41,7 +41,7 @@
 		z-index: 33;
 	}
 	.img{
-		margin-left: -240px;
+		margin-left: -330px;
 	}
 
 	div[bg]{
@@ -49,7 +49,7 @@
 	}
 
 	.text{
-		margin-top: 50px;
+
 	}
 
 	div[bg]{

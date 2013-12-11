@@ -87,7 +87,7 @@
 
 		<div class="website_wrapper">
 
-			<div class="text">
+			<div class="refe text">
 				<div class="websites active">
 				<h1 style="margin-bottom:20px">Referenzen</h1>
 				<p style="margin-bottom:40px">Bauer Biotec GmbH / Controlware GmbH / Clariant GmbH / db Soft GmbH <br>
@@ -102,7 +102,7 @@ Stadt Eltville am Rhein / Stadtentwicklungsgesellschaft Rüsselsheim  <br>
 Stadt Mörfelden-Walldorf / Stadt Rüsselsheim / Stadtwerke Rüsselsheim<br>
 Top Hair GmbH / Terratec GmbH / Wella GmbH / Zweckverband Rheingau</p>
 				
-				<a class="show_intro_text" href="#">zurück</a>			
+				<a class="show_intro_text" href="agentur.php">zurück</a>			
 			</div>
 			</div>
 			

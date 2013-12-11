@@ -1,3 +1,13 @@
+
+
+<header>
+		<ul>
+			<li><a href="agentur.php" class="roll"><span data-title="Agentur">Agentur</span></a></li>
+			<li><a href="kontakt.php" class="roll"><span data-title="Kontakt">Kontakt</span></a></li>
+			<li><a href="impressum.php" class="roll"><span data-title="Impressum">Impressum</span></a></li>
+		</ul>
+</header>
+
 <ul id="gn-menu" class="gn-menu-main">
 	<li class="gn-trigger">
 		<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
@@ -17,11 +27,3 @@
 		</nav>
 	</li>
 </ul>
-
-<header>
-		<ul>
-			<li><a href="agentur.php" class="roll"><span data-title="Agentur">Agentur</span></a></li>
-			<li><a href="kontakt.php" class="roll"><span data-title="Kontakt">Kontakt</span></a></li>
-			<li><a href="impressum.php" class="roll"><span data-title="Impressum">Impressum</span></a></li>
-		</ul>
-</header>

@@ -74,6 +74,10 @@
 		opacity: 1 !important;
 	}
 
+	div[bg]{
+		background-repeat: no-repeat !important;
+	}
+
 
 	.back_grad{
 		background:url(img/background_kontakt/bgkont.png);

@@ -1,4 +1,9 @@
 $(document).ready(function(){
+
+$('head').append('<script src="js/ismobile.js"></script>')
+$('head').append('<script src="js/move.js"></script>')
+$('head').append('<script src="js/swipe.js"></script>')
+
 	var width=$(window).width();
 	height=$(window).height(),
 	elem=$('.wrapper_slider_inner').find('.row').size(),
@@ -10,10 +15,34 @@ $(document).ready(function(){
 	slidetempo=400,
 	waitforchange=6000,
 	easing="easeInOutExpo",
-	rightpos= "20px",
+	rightpos= "20px";
 
 
-	$('div[bg]').height(height-72);
+	if(isMobile.phone==true){
+		$('div[bg]').height(height-37);
+		
+	}else{
+		$('div[bg]').height(height-72);
+		
+	}
+
+	if(isMobile.android.phone==true){
+		$('head').append('<link rel="stylesheet" href="css/android.css"/>');
+	}
+
+
+	$('.wrapper_slider').on('swipeleft',function(e){
+		$('.indicator div.activeslide').next('div').trigger('click');
+	});
+
+	$('.wrapper_slider').on('swiperight',function(e){
+		$('.indicator div.activeslide').prev('div').trigger('click');
+	});
+
+
+	if(isMobile.android.phone==true){
+		$('head').append('<link rel="stylesheet" href="css/android.css"/>')
+	}
 
 	$('.wrapper_slider_inner').css('width',width*elem);
 	$('.row#slider').css('max-width',width);
@@ -69,7 +98,7 @@ $(document).ready(function(){
 
  			$('div[bg="'+imgindex+'"]').animate({opacity: 1}, slidetempo)
  			$('.description').animate({left:0},slidetempo,easing)
- 			$('.images').animate({left:'300px'},slidetempo,easing);	
+ 			$('.images').animate({left:'0px'},slidetempo,easing);	
  		});
 	}
 
@@ -88,7 +117,7 @@ $(document).ready(function(){
 	
     		
     		$('.description').animate({left:0},slidetempo,easing)
-    		$('.images').animate({left:'300px'},slidetempo,easing);
+    		$('.images').animate({left:'0px'},slidetempo,easing);
     		$('div[bg="'+imgindex+'"]').animate({opacity: 1}, slidetempo)
 		});
     }
@@ -117,7 +146,7 @@ $(document).ready(function(){
  			checkactive();
  			
  			$('.description').animate({left:0},slidetempo,easing)
- 			$('.images').animate({left:'300px'},slidetempo,easing);
+ 			$('.images').animate({left:'0px'},slidetempo,easing);
  			$('div[bg="'+imgindex+'"]').animate({opacity: 1}, 300)
  		});
     });

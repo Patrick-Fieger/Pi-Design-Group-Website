@@ -124,7 +124,7 @@
 				$('div[bg]').addClass('always');	
 			});
 		},100);
-
+		$('#gn-menu').remove();
 
 		blink();
 

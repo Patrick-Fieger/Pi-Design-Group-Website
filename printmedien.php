@@ -45,7 +45,7 @@
 	}
 
 	.text{
-		margin-top: -33px;
+		margin-top: 0px;
 	}
 
 	div[bg]{
@@ -62,7 +62,11 @@
 		left: 50%;
 		margin-left: -470px;
 		z-index: 1000;
-		width: 1000px;
+		width: 1390px;
+	}
+
+	.img{
+		margin-left: -330px;
 	}
 
 	.always{

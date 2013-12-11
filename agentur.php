@@ -41,7 +41,6 @@
 		z-index: 33;
 	}
 
-
 	.img{
 		margin-bottom: -24px;
 	}
@@ -83,19 +82,19 @@
 
 		<div class="website_wrapper">
 
-			<div class="text">
+			<div class="text agent">
 				<div class="websites active">
 				<h1 style="margin-bottom:20px">Agentur</h1>
 				<p>PI DESIGN GROUP mit Sitz im Hauptbahnhof in Darmstadt<br>
-wurde 1994 von Jörg Walter und Cyrus Kosrowi gegründet.</p>
+				wurde 1994 von Jörg Walter und Cyrus Kosrowi gegründet.</p>
 				
 				<p>Die Geschäftsführer sind neben Beratung und Konzeption an <br>
-allen wichtigen kreativen Schritten beteiligt. Unterstützt werden sie <br>
-von freien Mitarbeitern sowie einem Netzwerk aus Spezialisten der <br>
-Bereiche Reproduktion, Programmierung und Visualisierung.</p>
+				allen wichtigen kreativen Schritten beteiligt. Unterstützt werden sie <br>
+				von freien Mitarbeitern sowie einem Netzwerk aus Spezialisten der <br>
+				Bereiche Reproduktion, Programmierung und Visualisierung.</p>
 
 				<p style="margin-bottom:50px">PI DESIGN GROUP arbeitet in erster Linie für mittelständische <br>
-Unternehmen sowie für Städte und Kommunen.</p>
+				Unternehmen sowie für Städte und Kommunen.</p>
 
 				<a class="liste" href="referenzen.php">zur Kundenliste</a>
 			
@@ -137,7 +136,7 @@ Unternehmen sowie für Städte und Kommunen.</p>
 	<script>
 		$(document).foundation();
   	</script>
-  	  	<script src="js/classie.js"></script>
+  	<script src="js/classie.js"></script>
 	<script src="js/gnmenu.js"></script>
 	<script>
 		new gnMenu( document.getElementById( 'gn-menu' ) );
