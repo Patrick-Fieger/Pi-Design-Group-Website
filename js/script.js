@@ -83,15 +83,15 @@ $('head').append('<script src="js/swipe.js"></script>')
 		$('.images img:first-child').addClass('active');
 	});
 
-	// setInterval(function(){
-	// 	if(!$('.indicator').hasClass('dontmove')){
-	// 		if($(".description .active").next("div").length > 0){
-	// 			jump();
-	// 		}else{
-	// 			jumpfirst();
-	// 		}
-	// 	}
-	// },waitforchange)
+	setInterval(function(){
+		if(!$('.indicator').hasClass('dontmove')){
+			if($(".description .active").next("div").length > 0){
+				jump();
+			}else{
+				jumpfirst();
+			}
+		}
+	},waitforchange)
 
 	function jump(){
 			$('div[bg]').animate({opacity: 0},slidetempo);
