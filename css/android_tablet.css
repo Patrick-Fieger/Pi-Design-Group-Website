@@ -1,0 +1,31 @@
+header{
+	width: 400px;
+}
+
+
+.wrapper_slider_inner .description{
+	margin-top: 100px;
+}
+/*
+body{
+	zoom:0.9;
+}*/
+
+.text{
+	position: relative;
+	top: 100px;
+	width: 500px;
+}
+
+.website_wrapper[wrapper="0"] .text {
+	margin-left: 0px !important;
+	margin-top: 20px !important;
+}
+
+.text.agent{
+	margin-left: 0 !important
+}
+
+#big_slider .img_wrapper{
+	width: 500px !important;
+}

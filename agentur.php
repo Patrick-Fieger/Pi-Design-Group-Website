@@ -102,7 +102,7 @@
 			</div>
 			
 			<div class="img">
-				<img class="websites" src="img/background_agentur/Portrait.png">
+				<img class="" src="img/background_agentur/Portrait.png">
 			</div>
 
 		</div>
@@ -140,6 +140,7 @@
 	<script src="js/gnmenu.js"></script>
 	<script>
 		new gnMenu( document.getElementById( 'gn-menu' ) );
+		$('#gn-menu').addClass('other_all')
 	</script>
 </body>
 </html>

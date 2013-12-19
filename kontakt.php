@@ -91,7 +91,7 @@
 	
 
 
-		<div style="background:url(img/background_kontakt/Background_Kontakt.png);" bg="0" class="bg1"></div>
+		<div style="background:url(img/background_kontakt/Background_Kontakt.png);" bg="0" class="bg1 spezial"></div>
 
 		<div class="website_wrapper">
 
@@ -112,7 +112,7 @@
 				
 
 			
-			</div>
+				</div>
 			</div>
 		
 

@@ -68,7 +68,7 @@
 		
 	</style>
 </head>
-<body style="opacity:0">
+<body id="index" style="opacity:0">
 	<?php include ("header.php"); ?>
 	
 	<div class="indicator">
@@ -78,10 +78,10 @@
 		<div></div>
 	</div>
 
-	<div style="opacity:1" bg="0" class="bg1"></div>
-	<div bg="1" class="bg2"></div>
-	<div bg="2" class="bg3"></div>
-	<div bg="3" class="bg4"></div>
+	<div style="opacity:1" bg="0" class="spezial bg1"></div>
+	<div bg="1" class="spezial bg2"></div>
+	<div bg="2" class="spezial bg3"></div>
+	<div bg="3" class="spezial bg4"></div>
 
 	<div class="wrapper_slider play">
 		<div class="wrapper_slider_inner">
@@ -105,7 +105,7 @@
 					</div>
 				</div>
 				<div class="images" style="left:0px;">
-					<img src="img/intro/exponat_intro1.png">
+					<img class="active" src="img/intro/exponat_intro1.png">
 					<img src="img/intro/exponat_intro2.png">
 					<img src="img/intro/exponat_intro3.png">
 					<img src="img/intro/exponat_intro4.png">	

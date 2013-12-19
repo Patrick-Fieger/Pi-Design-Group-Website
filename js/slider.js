@@ -9,6 +9,11 @@ $(document).ready(function(){
 		$('head').append('<link rel="stylesheet" href="css/android.css"/>')
 	}
 
+
+	if(isMobile.tablet){
+		$('head').append('<link rel="stylesheet" href="css/android_tablet.css"/>');
+	}
+
 	function init_slider(){
 		var size=$('#big_slider .row').size();
 

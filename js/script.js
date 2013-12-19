@@ -20,10 +20,19 @@ $('head').append('<script src="js/swipe.js"></script>')
 
 	if(isMobile.phone==true){
 		$('div[bg]').height(height-37);
+		// $('div[bg]').height($(window).height())
+		// $('div[bg]').width($(window).width())
+		// setTimeout(function(){
+		// 	alert($('div[bg]').css('botttom'))
+		// },3000);
 		
 	}else{
 		$('div[bg]').height(height-72);
-		
+	}
+
+	if(isMobile.tablet){
+		$('head').append('<link rel="stylesheet" href="css/android_tablet.css"/>');
+	
 	}
 
 	if(isMobile.android.phone==true){
