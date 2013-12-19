@@ -77,7 +77,7 @@
 
 		<div style="background:url(img/background_website/1.png);" bg="0" class="bg1"></div>
 
-		<div class="website_wrapper">
+		<div class="website_wrapper" wrapper="0">
 
 			<div class="text">
 			<div class="websites">

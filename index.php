@@ -60,6 +60,12 @@
 		div[bg]{
 			left: 0;
 		}
+
+		footer .menu{
+		
+		margin-top: -23px;
+		}
+		
 	</style>
 </head>
 <body style="opacity:0">
