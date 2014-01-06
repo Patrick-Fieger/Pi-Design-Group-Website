@@ -27,8 +27,6 @@ $(document).ready(function(){
 		$('#big_slider_inner').width(size*width);
 		$('#big_slider .row').css('min-width',width);
 		$('#big_slider .row').css('max-width',width);
-
-
 		$('.indicator div:first-child').addClass('activeslide')
 	}
 
@@ -51,9 +49,22 @@ $(document).ready(function(){
 
 	$(document).on('click touchstart','.icon-arrow-left,.icon-arrow-right',function(){
 		if($(this).attr('class')=="icon-arrow-left"){
-			$('.indicator .activeslide').prev('div').trigger('click')
+			if($('.indicator .activeslide').prev('div').length!==0){
+				$('.indicator .activeslide').prev('div').trigger('click')	
+			}else{
+				$('.indicator div:last-child').trigger('click')	
+			}
+
+
+			
 		}else{
-			$('.indicator .activeslide').next('div').trigger('click')
+			if($('.indicator .activeslide').next('div').length!==0){
+				$('.indicator .activeslide').next('div').trigger('click');
+			}else{
+				$('.indicator div:first-child').trigger('click')
+			}
+
+			
 		}
 	});
 
