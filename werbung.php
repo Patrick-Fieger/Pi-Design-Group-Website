@@ -103,7 +103,7 @@
 
 
 				
-				<a href="website_slider.php">Arbeitsbeispiele ansehen</a>
+				<a href="werbung_slider.php">Arbeitsbeispiele ansehen</a>
 			</div>
 			</div>
 			

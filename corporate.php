@@ -99,7 +99,7 @@
 					<li>– Unternehmenskultur</li>
 					<li>– Public Design</li>
 				</ul>
-				<a href="website_slider.php">Arbeitsbeispiele ansehen</a>
+				<a href="corp_slider.php">Arbeitsbeispiele ansehen</a>
 			</div>
 			</div>
 			

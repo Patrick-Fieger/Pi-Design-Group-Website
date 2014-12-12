@@ -57,10 +57,12 @@ $('head').append('<script src="js/swipe.js"></script>')
 	$('.row#slider').css('max-width',width);
 	
 	$(window).load(function(){
-		$('body').animate({opacity:1}, 1000);
+		// $('body').animate({opacity:1}, 1000);
 		$('.gn-menu-main').hide();
 		$('.gn-menu-main').css('opacity',1)
 	});	
+
+	$('body').animate({opacity:1}, 1000);
 	
 
 	$(window).resize(function(){

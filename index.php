@@ -16,7 +16,7 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/easing.js"></script>
 	<script src="js/jquery.debouncedresize.js"></script>
-	<script src="js/script.js"></script>
+	
 	<style type="text/css">
 		.description div{
 			left:50%;
@@ -63,7 +63,7 @@
 
 		footer .menu{
 		
-		margin-top: -23px;
+			margin-top: -23px;
 		}
 		
 	</style>
@@ -168,5 +168,6 @@
 	<script>
 		new gnMenu( document.getElementById( 'gn-menu' ) );
 	</script>
+	<script src="js/script.js"></script>
 </body>
 </html>

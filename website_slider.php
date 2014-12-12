@@ -38,11 +38,20 @@
 		opacity: 0;
 	}
 
+	.indicator{
+		width: 408px;
+		margin-left: -204px;
+	}
+
 	footer ul li a{
 		margin-top: -4px;
 	}
 	header a{
 		margin-top: -1px;
+	}
+
+	#big_slider{
+		bottom: 93px;
 	}
 
 	</style>
@@ -53,6 +62,8 @@
 
 
 	<div bg="0" class="bg1"></div>
+	
+
 	<div class="indicator">
 	</div>
 
@@ -63,55 +74,177 @@
 	<div id="big_slider">
 		<div id="big_slider_inner">
 			<div class="row">
-		<div class="large-12 column">
-			<div class="img_wrapper">
-				<img src="img/slider/1.png">
-			</div>
-		</div>
-		<div class="large-12 column">
-			<h1>Website Justem Rechtsanwälte</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat.</p>
-		</div>
-			</div>
-		
-			<div class="row">
 				<div class="large-12 column">
 					<div class="img_wrapper">
-						<img src="img/slider/1.png">
+						<img src="img/slider/website/justem.png">
 					</div>
 				</div>
 				<div class="large-12 column">
-					<h1>WEBSITE TEST HEADER</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
+					<h1>Website Justem Rechtsanwälte</h1>
+					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung, Schulung<br>
+Erstellung und Veröffentlichung 2011.</p>
 				</div>
 			</div>
-		
+
+
 			<div class="row">
 				<div class="large-12 column">
 					<div class="img_wrapper">
-						<img src="img/slider/1.png">
+						<img src="img/slider/website/upw.png">
 					</div>
 				</div>
 				<div class="large-12 column">
-					<h1>WEBSITE TEST HEADER</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
+					<h1>Website UPW Compliance Dienstleister</h1>
+					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
+Erstellung und Veröffentlichung 2010</p>
 				</div>
 			</div>
+
+			<div class="row">
+				<div class="large-12 column">
+					<div class="img_wrapper">
+						<img src="img/slider/website/ruessel.png">
+					</div>
+				</div>
+				<div class="large-12 column">
+					<h1>Website Rüsselsheim 2020</h1>
+					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
+Erstellung und Veröffentlichung 2010</p>
+				</div>
+			</div>
+
+
+
+			<div class="row">
+				<div class="large-12 column">
+					<div class="img_wrapper">
+						<img src="img/slider/website/immobilien.png">
+					</div>
+				</div>
+				<div class="large-12 column">
+					<h1>Website Immobilienbörse Rüsselsheim</h1>
+					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
+Erstellung und Veröffentlichung 2010</p>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="large-12 column">
+					<div class="img_wrapper">
+						<img src="img/slider/website/gewo.png">
+					</div>
+				</div>
+				<div class="large-12 column">
+					<h1>Website gewobau Wohndienstleister</h1>
+					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
+Erstellung und Veröffentlichung 2010</p>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="large-12 column">
+					<div class="img_wrapper">
+						<img src="img/slider/website/aks.png">
+					</div>
+				</div>
+				<div class="large-12 column">
+					<h1>Website AKS Klinische Studien</h1>
+					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
+Erstellung und Veröffentlichung 2010</p>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="large-12 column">
+					<div class="img_wrapper">
+						<img src="img/slider/website/stadtruessel.png">
+					</div>
+				</div>
+				<div class="large-12 column">
+					<h1>Website Stadt Rüsselsheim</h1>
+					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
+Erstellung und Veröffentlichung 2010</p>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="large-12 column">
+					<div class="img_wrapper">
+						<img src="img/slider/website/msi.png">
+					</div>
+				</div>
+				<div class="large-12 column">
+					<h1>Website MSI Aircraft Maintenance</h1>
+					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
+Erstellung und Veröffentlichung 2010</p>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="large-12 column">
+					<div class="img_wrapper">
+						<img src="img/slider/website/wirtschaftsservice.png">
+					</div>
+				</div>
+				<div class="large-12 column">
+					<h1>Website Wirtschaftsservice Rüsselsheim</h1>
+					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
+Erstellung und Veröffentlichung 2010
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="large-12 column">
+					<div class="img_wrapper">
+						<img src="img/slider/website/ilchmann.png">
+					</div>
+				</div>
+				<div class="large-12 column">
+					<h1>Website Ilchmann Fördertechnik</h1>
+					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
+Erstellung und Veröffentlichung 2010
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="large-12 column">
+					<div class="img_wrapper">
+						<img src="img/slider/website/wohnenruessel.png">
+					</div>
+				</div>
+				<div class="large-12 column">
+					<h1>Website Wohnen in Rüsselsheim</h1>
+					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
+Erstellung und Veröffentlichung 2010
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="large-12 column">
+					<div class="img_wrapper">
+						<img src="img/slider/website/probike.png">
+					</div>
+				</div>
+				<div class="large-12 column">
+					<h1>Website Probike Bikestation</h1>
+					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
+Erstellung und Veröffentlichung 2010
+					</p>
+				</div>
+			</div>
+
+
+
 		</div>
 	</div>
-
-
-
-
 
 
 	<?php include ("footer.php"); ?>		
@@ -125,20 +258,6 @@
 			});
 		},100);
 		$('#gn-menu').remove();
-
-		blink();
-
-		function blink(){
-			$('.websites a').animate({opacity:0.2}, 400,function(){
-				$('.websites a').animate({opacity:1}, 400,function(){
-					blink()
-				});
-			});
-		}
-
-	
-
-
 	});
 	</script>
 	<script>

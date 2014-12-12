@@ -77,6 +77,29 @@ h1{
 	cursor: pointer;
 }
 
+
+
+.more_link_wrapper{
+	width: 1050px;
+	margin: 0 auto;	
+}
+
+.more_link_wrapper a{
+	font-weight: bold;
+	color: #b7c5cf;
+	text-align: center;
+	width: 100%;
+	float: left;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.more_link_wrapper a:hover{
+	color: #92a0ab;
+}
+
 /*e9edf0*/
 
 .icon-arrow-left, .icon-arrow-right {
@@ -1104,12 +1127,50 @@ input.gn-search:focus {
 
 
 
+.mainslider,
+.indicator,
+.icon-arrow-left,
+.icon-arrow-right,
+.detailedslider,
+.detailedslider.row{
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.mainslider.active{
+	opacity: 0 !important;
+	visibility: hidden !important;
+}
+
+.detailedslider,.detailedslider .row,
+.indicator.active,
+.icon-arrow-left.active,
+.icon-arrow-right.active{
+	opacity: 0 !important;
+	visibility: hidden !important;
+}
+
+.detailedslider .row{
+	display: none;
+}
+
+.detailedslider.active,.detailedslider .row.active{
+	opacity: 1 !important;
+	visibility: visible !important;
+	display: block;
+}
 
 
-
-
-
-
+.hilfe{
+	position: fixed;
+	bottom: 163px;
+	height: 1px;
+	width: 100%;
+	background-color: red;
+	z-index: 100000 
+}
 
 
 

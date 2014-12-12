@@ -99,7 +99,7 @@
 					<li>– Kataloge / Kompendien / Buchbände</li>
 					<li>– Display- und Verkaufsverpackungen</li>
 				</ul>
-				<a href="website_slider.php">Arbeitsbeispiele ansehen</a>
+				<a href="print_slider.php">Arbeitsbeispiele ansehen</a>
 			</div>
 			</div>
 			
