@@ -131,7 +131,7 @@ neben den üblichen Konzept- und Designaufgaben auch redaktionelle Kompetenzen, 
 
 			<div class="row" style="top:15px;">
 				<div class="large-12 column">
-					<div style="width:904px" class="img_wrapper">
+					<div style="width:906px" class="img_wrapper">
 						<img src="img/slider/print/ordnerd.png">
 
 						<div style="width:906px" class="more_link_wrapper">

@@ -54,6 +54,10 @@
 		bottom: 93px;
 	}
 
+	#big_slider .img_wrapper {
+		margin: 0 auto;
+		width: 637px;
+	}
 	</style>
 </head>
 <body>

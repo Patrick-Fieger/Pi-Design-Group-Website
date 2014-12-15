@@ -63,9 +63,9 @@
 		margin-left: -68px;
 	}
 
-	#big_slider .img_wrapper{
+/*	#big_slider .img_wrapper{
 		width: 637px;
-	}
+	}*/
 
 	</style>
 </head>
