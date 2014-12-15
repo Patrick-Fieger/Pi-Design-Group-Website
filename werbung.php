@@ -88,7 +88,7 @@
 			<div class="websites">
 				<h1>Werbung</h1>
 				<p style="margin-bottom:40px">Wir beraten und unterstützen Sie umfassend in den Bereichen <br>
-				klassische Werbung, Verkaufsförderung sowie bei New Media<br> Marketing wie Online- und Crossover-Kampagnen</p>
+				klassische Werbung, Verkaufsförderung sowie bei New Media<br> Marketing wie Online- und Crossover-Kampagnen.</p>
 
 				<p style="font-size:18px;margin-bottom:17px" class="midbold">Unsere Leistungen</p>
 				<ul style="margin-bottom:40px">
@@ -117,8 +117,7 @@
 
 
 
-	<?php include ("footer.php"); ?>		
-	<script src="js/foundation.min.js"></script>
+	<?php include ("footer.php"); ?>
 	<script type="text/javascript">
 	$(document).ready(function(){
 
@@ -138,17 +137,6 @@
 			});
 		}
 	});
-	</script>
-	<script>
-		$(document).foundation();
-  	</script>
-  	<script src="js/classie.js"></script>
-	<script src="js/gnmenu.js"></script>
-	<script>
-		new gnMenu( document.getElementById( 'gn-menu' ) );
-
-
-		$('#gn-menu').addClass('other_all')
 	</script>
 </body>
 </html>

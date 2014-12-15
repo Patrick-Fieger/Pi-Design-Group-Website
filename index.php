@@ -152,22 +152,7 @@
 	<div class="back_grad"></div>
 
 
-	<?php include ("footer.php"); ?>		
-	<script src="js/foundation.min.js"></script>
-	<script type="text/javascript">
-	// $(document).ready(function(){
-	// 	var width=$(window).width()-250;
-	// 	$('.images').width(width)
-	// });
-	</script>
-	<script>
-		$(document).foundation();
-  	</script>
-  	<script src="js/classie.js"></script>
-	<script src="js/gnmenu.js"></script>
-	<script>
-		new gnMenu( document.getElementById( 'gn-menu' ) );
-	</script>
+	<?php include ("footer.php"); ?>
 	<script src="js/script.js"></script>
 </body>
 </html>

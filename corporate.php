@@ -86,7 +86,7 @@
 			<div class="websites">
 				<h1>Corporate Design</h1>
 				<p style="margin-bottom:40px">Wie wird Ihr Unternehmen nach außen wahrgenommen?<br>
-				Ist der Markenkern eindeutig und unverwechselbar. <br> Legen Sie die Realisierung einer überzeugenden Außen-<br>
+				Ist der Markenkern eindeutig und unverwechselbar? <br> Legen Sie die Realisierung einer überzeugenden Außen-<br>
 				darstellung in erfahrene Hände. Wir stärken Profil, Wieder-<br>erkennungswert und Akzeptanz Ihres Unternehmens.</p>
 
 				<p style="font-size:18px;margin-bottom:17px" class="midbold">Unsere Leistungen</p>
@@ -114,7 +114,6 @@
 
 
 	<?php include ("footer.php"); ?>		
-	<script src="js/foundation.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
 
@@ -135,16 +134,6 @@
 		}
 	});
 	</script>
-	<script>
-		$(document).foundation();
-  	</script>
-  	<script src="js/classie.js"></script>
-	<script src="js/gnmenu.js"></script>
-	<script>
-		new gnMenu( document.getElementById( 'gn-menu' ) );
 
-
-		$('#gn-menu').addClass('other_all')
-	</script>
 </body>
 </html>

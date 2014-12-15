@@ -52,6 +52,10 @@ h1{
 }
 
 
+.maillink{
+	color: #222222;
+}
+
 .indicator{
 	position: fixed;
 	top: 19px;
@@ -268,8 +272,8 @@ footer .logo{
 	float: right;
 	height: 24px;
 	width: 400px;
-	margin-top: -11px;
-	background-size: 55%;
+	margin-top: -13px;
+	/*background-size: 55%;*/
 	margin-right: 20px;
 }
 

@@ -32,10 +32,10 @@
 
 	}
 
-	.websites a{
+	/*.websites a{
 		font-size: 19px;
 		font-family: km !important;
-	}
+	}*/
 	.text,.img{
 		float: left; 
 		z-index: 33;
@@ -94,7 +94,7 @@
 				</p>
 				<p>Tel. 06151. 90677-90<br>
 				Fax. 06151. 90677-93<br>
-				Email: info@pi-design.de
+				E-mail: <a class="maillink" href="mailto:info@pi-design.de">info@pi-design.de</a>
 				</p>
 					
 				<p></p>
@@ -103,8 +103,10 @@
 					Dipl. Designer Jörg Walter</p>
 
 					<p>
-						Inhaber:
-						Dipl. Designer Cyrus Kosrowi<br>USt-IdNr.: DE170396560
+						Inhaber:<br>
+						Dipl. Designer Cyrus Kosrowi<br>
+						Dipl. Designer Jörg Walter
+						<br>USt-IdNr.: DE170396560
 					</p>
 
 			
@@ -119,7 +121,6 @@
 
 
 	<?php include ("footer.php"); ?>		
-	<script src="js/foundation.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
 
@@ -128,28 +129,8 @@
 				$('div[bg]').addClass('always');	
 			});
 		},100)
-
-		// blink();
-
-		// function blink(){
-		// 	$('.websites a').animate({opacity:0.2}, 750,function(){
-		// 		$('.websites a').animate({opacity:1}, 750,function(){
-		// 			blink();
-		// 		});
-		// 	});
-		// }
 	});
 	</script>
-	<script>
-		$(document).foundation();
-  	</script>
-  	  	<script src="js/classie.js"></script>
-	<script src="js/gnmenu.js"></script>
-	<script>
-		new gnMenu( document.getElementById( 'gn-menu' ) );
 
-
-		$('#gn-menu').addClass('other_all')
-	</script>
 </body>
 </html>

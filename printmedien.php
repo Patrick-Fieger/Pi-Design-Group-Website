@@ -88,8 +88,8 @@
 			<div class="websites">
 				<h1>Printmedien</h1>
 				<p style="margin-bottom:40px">Wir gestalten anspruchsvolle Printmedien in ihrer ganzen<br>
-				Vielfalt. Ob Flyer oder umfassendes Katalogwerk wir<br> begleiten und koordinieren alle Entwicklungsstufen:<br>
-				Konzept und Layout, Fotographie und Illustration, Claims<br> und Texte sowie Druckvorstufe und Produktion</p>
+				Vielfalt. Ob Flyer oder umfassendes Katalogwerk, wir<br> begleiten und koordinieren alle Entwicklungsstufen:<br>
+				Konzept und Layout, Fotographie und Illustration, Claims<br> und Texte sowie Druckvorstufe und Produktion.</p>
 
 				<p style="font-size:18px;margin-bottom:17px" class="midbold">Unsere Leistungen</p>
 				<ul style="margin-bottom:40px">
@@ -113,8 +113,7 @@
 
 
 
-	<?php include ("footer.php"); ?>		
-	<script src="js/foundation.min.js"></script>
+	<?php include ("footer.php"); ?>
 	<script type="text/javascript">
 	$(document).ready(function(){
 
@@ -134,17 +133,6 @@
 			});
 		}
 	});
-	</script>
-	<script>
-		$(document).foundation();
-  	</script>
-  	<script src="js/classie.js"></script>
-	<script src="js/gnmenu.js"></script>
-	<script>
-		new gnMenu( document.getElementById( 'gn-menu' ) );
-
-
-		$('#gn-menu').addClass('other_all')
 	</script>
 </body>
 </html>

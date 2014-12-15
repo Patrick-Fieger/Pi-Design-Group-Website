@@ -134,7 +134,7 @@ neben den üblichen Konzept- und Designaufgaben auch redaktionelle Kompetenzen, 
 					<div style="width:904px" class="img_wrapper">
 						<img src="img/slider/print/ordnerd.png">
 
-						<div style="width:904px" class="more_link_wrapper">
+						<div style="width:906px" class="more_link_wrapper">
 							<div class="column large-6"><a expo="7" href="#">mehr ></a></div>
 							<div class="column large-6"><a expo="8" href="#">mehr ></a></div>
 						</div>
@@ -217,7 +217,7 @@ Die Imagebroschüre bündelt diese Inhalte und Botschaften.</p>
 					<h1>Imagebroschüre Rüsselsheim</h1>
 					<p>Die Kompetenz des Zukunftsstandortes Rüsselsheim und die traditionelle automotive Verbundenheit der Stadt<br>
 bilden die Kernbotschaften der Imagebroschüre. Großformatige Fotomotive, die aus einer Serie <br>
-von Plakatmotiven abgeleitet sind, transportieren die Inhalte bildstark und plakativ.Imagebroschüre Rüsselsheim</p>
+von Plakatmotiven abgeleitet sind, transportieren die Inhalte bildstark und plakativ.</p>
 				</div>
 			</div>
 
@@ -349,7 +349,6 @@ Umsetzung inklusive Satz und Befüllung, Produktion und Konfektionierung der Inh
 
 
 	<?php include ("footer.php"); ?>		
-	<script src="js/foundation.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
 		setTimeout(function(){
@@ -357,19 +356,8 @@ Umsetzung inklusive Satz und Befüllung, Produktion und Konfektionierung der Inh
 				$('div[bg]').addClass('always');	
 			});
 		},100);
-		$('#gn-menu').remove();
 	});
 	</script>
-	<script>
-		$(document).foundation();
-  	</script>
-  	<script src="js/classie.js"></script>
-	<script src="js/gnmenu.js"></script>
-	<script>
-		new gnMenu( document.getElementById( 'gn-menu' ) );
 
-
-		$('#gn-menu').addClass('other_all')
-	</script>
 </body>
 </html>

@@ -63,6 +63,10 @@
 		margin-left: -68px;
 	}
 
+	#big_slider .img_wrapper{
+		width: 637px;
+	}
+
 	</style>
 </head>
 <body>
@@ -141,29 +145,15 @@ Konzeption und Organisation von POS-Prämien- und Gewinnspielen. </p>
 	</div>
 
 
-	<?php include ("footer.php"); ?>		
-	<script src="js/foundation.min.js"></script>
+	<?php include ("footer.php"); ?>
 	<script type="text/javascript">
 	$(document).ready(function(){
-		
 		setTimeout(function(){
 			$('#big_slider,.indicator,.icon-arrow-left,.icon-arrow-right').animate({opacity:1}, 750,function(){
 				$('div[bg]').addClass('always');	
 			});
 		},100);
-		$('#gn-menu').remove();
 	});
-	</script>
-	<script>
-		$(document).foundation();
-  	</script>
-  	<script src="js/classie.js"></script>
-	<script src="js/gnmenu.js"></script>
-	<script>
-		new gnMenu( document.getElementById( 'gn-menu' ) );
-
-
-		$('#gn-menu').addClass('other_all')
 	</script>
 </body>
 </html>

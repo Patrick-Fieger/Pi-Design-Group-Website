@@ -111,11 +111,7 @@ Top Hair GmbH / Terratec GmbH / Wella GmbH / Zweckverband Rheingau</p>
 		</div>
 
 		<div class="back_grad"></div>
-
-
-
 	<?php include ("footer.php"); ?>		
-	<script src="js/foundation.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
 
@@ -125,27 +121,7 @@ Top Hair GmbH / Terratec GmbH / Wella GmbH / Zweckverband Rheingau</p>
 			});
 		},100)
 
-		// blink();
-
-		// function blink(){
-		// 	$('.websites a').animate({opacity:0.2}, 750,function(){
-		// 		$('.websites a').animate({opacity:1}, 750,function(){
-		// 			blink();
-		// 		});
-		// 	});
-		// }
 	});
-	</script>
-	<script>
-		$(document).foundation();
-  	</script>
-  	<script src="js/classie.js"></script>
-	<script src="js/gnmenu.js"></script>
-	<script>
-		new gnMenu( document.getElementById( 'gn-menu' ) );
-
-
-		$('#gn-menu').addClass('other_all')
 	</script>
 </body>
 </html>

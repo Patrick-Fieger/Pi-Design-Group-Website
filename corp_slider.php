@@ -145,9 +145,9 @@ Stärkung von Profil, Wiedererkennungswert, Markenbindung und Akzeptanz. </p>
 			</div>
 
 
-			<div class="row" style="top:20px">
+			<div class="row" style="top:0px">
 				<div class="large-12 column">
-					<div style="width:947px" class="img_wrapper">
+					<div style="width:990px" class="img_wrapper">
 						<img  src="img/slider/ci/briefpapier.png">
 					</div>
 				</div> 
@@ -262,7 +262,7 @@ gewobau Rüsselsheim am Naherholungsgebiet Horlachegraben.</p>
 				</div>
 				<div class="large-12 column">
 					<h1>Konsens Finanzdienstleister</h1>
-					<p>Markenrelaunch für den Finanzdienstleister Konsens mit Logoentwicklung,
+					<p>Markenrelaunch für den Finanzdienstleister Konsens mit Logoentwicklung,<br>
 Geschäftsausstattung und Entwurf diverser Printmedien.
 </p>
 				</div>
@@ -354,7 +354,7 @@ mit CD-Styleguide, Geschäftsausstattung, Aussenwerbung und diversen Printmedien
 				</div>
 				<div class="large-12 column">
 					<h1>Text-Tech IT-Consulting</h1>
-					<p>Logoentwicklung für den IT-Entwickler Tex-Tech in Verbindung <br>
+					<p>Logoentwicklung für den IT-Entwickler Text-Tech in Verbindung <br>
 mit Geschäftsausstattung und diversen Printmedien.
 
 					</p>
@@ -449,7 +449,7 @@ Formularentwürfe, Anzeigen sowie für Printmedien.
 				</div>
 				<div class="large-12 column">
 					<h1>Corporate Design Manual Rheingau</h1>
-					<p>Im Zuge des Markenaufbaus der Tourismusderstination Kulturland Rheingau definiert das <br>
+					<p>Im Zuge des Markenaufbaus der Tourismusdestination Kulturland Rheingau definiert das <br>
 CD-Manual umfangreiche Verwendungsmuster von der Logoplazierung auf der Visitenkarte <br>
 bis hin zu komplexen Layouts, z.B. für öffentliche Wegweisertafeln.
 					</p>
@@ -488,7 +488,6 @@ Formulare, Anzeigen sowie für Printmedien.
 
 
 	<?php include ("footer.php"); ?>		
-	<script src="js/foundation.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
 		setTimeout(function(){
@@ -496,19 +495,8 @@ Formulare, Anzeigen sowie für Printmedien.
 				$('div[bg]').addClass('always');	
 			});
 		},100);
-		$('#gn-menu').remove();
 	});
 	</script>
-	<script>
-		$(document).foundation();
-  	</script>
-  	<script src="js/classie.js"></script>
-	<script src="js/gnmenu.js"></script>
-	<script>
-		new gnMenu( document.getElementById( 'gn-menu' ) );
 
-
-		$('#gn-menu').addClass('other_all')
-	</script>
 </body>
 </html>

@@ -81,8 +81,8 @@
 				</div>
 				<div class="large-12 column">
 					<h1>Website Justem Rechtsanwälte</h1>
-					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung, Schulung<br>
-Erstellung und Veröffentlichung 2011.</p>
+					<p>Konzeption, Design, Fotoproduktion, Programmierung, CMS, Erstbefüllung, Schulung<br>
+					&nbsp;
 				</div>
 			</div>
 
@@ -95,8 +95,8 @@ Erstellung und Veröffentlichung 2011.</p>
 				</div>
 				<div class="large-12 column">
 					<h1>Website UPW Compliance Dienstleister</h1>
-					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
-Erstellung und Veröffentlichung 2010</p>
+					<p>Konzeption, Design, Bildwelt, Programmierung, CMS, Erstbefüllung<br>
+					&nbsp;
 				</div>
 			</div>
 
@@ -108,8 +108,8 @@ Erstellung und Veröffentlichung 2010</p>
 				</div>
 				<div class="large-12 column">
 					<h1>Website Rüsselsheim 2020</h1>
-					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
-Erstellung und Veröffentlichung 2010</p>
+					<p>Konzeption, Design, Bildwelt, Programmierung, CMS, Erstbefüllung, Schulung<br>
+					&nbsp;
 				</div>
 			</div>
 
@@ -123,8 +123,8 @@ Erstellung und Veröffentlichung 2010</p>
 				</div>
 				<div class="large-12 column">
 					<h1>Website Immobilienbörse Rüsselsheim</h1>
-					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
-Erstellung und Veröffentlichung 2010</p>
+					<p>Konzeption, Design, Programmierung, Datenbank, CMS, Erstbefüllung, Schulung<br>
+					&nbsp;
 				</div>
 			</div>
 
@@ -137,8 +137,8 @@ Erstellung und Veröffentlichung 2010</p>
 				</div>
 				<div class="large-12 column">
 					<h1>Website gewobau Wohndienstleister</h1>
-					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
-Erstellung und Veröffentlichung 2010</p>
+					<p>Konzeption, Design, Bildwelt, Programmierung, CMS, Erstbefüllung, Schulung<br>
+					&nbsp;
 				</div>
 			</div>
 
@@ -151,8 +151,8 @@ Erstellung und Veröffentlichung 2010</p>
 				</div>
 				<div class="large-12 column">
 					<h1>Website AKS Klinische Studien</h1>
-					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
-Erstellung und Veröffentlichung 2010</p>
+					<p>Konzeption, Design, Bildwelt, Programmierung, CMS, Erstbefüllung<br>
+					&nbsp;
 				</div>
 			</div>
 
@@ -165,8 +165,8 @@ Erstellung und Veröffentlichung 2010</p>
 				</div>
 				<div class="large-12 column">
 					<h1>Website Stadt Rüsselsheim</h1>
-					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
-Erstellung und Veröffentlichung 2010</p>
+					<p>Konzeption, Design, Programmierung, Datenbanken, CMS, Schulung, Manualerstellung<br>
+					&nbsp;
 				</div>
 			</div>
 
@@ -179,8 +179,8 @@ Erstellung und Veröffentlichung 2010</p>
 				</div>
 				<div class="large-12 column">
 					<h1>Website MSI Aircraft Maintenance</h1>
-					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
-Erstellung und Veröffentlichung 2010</p>
+					<p>Konzeption, Design, Bildwelt<br>
+					&nbsp;
 				</div>
 			</div>
 
@@ -193,8 +193,8 @@ Erstellung und Veröffentlichung 2010</p>
 				</div>
 				<div class="large-12 column">
 					<h1>Website Wirtschaftsservice Rüsselsheim</h1>
-					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
-Erstellung und Veröffentlichung 2010
+					<p>Konzeption, Design, Bildwelt, Programmierung, CMS, Erstbefüllung, Schulung<br>
+					&nbsp;
 					</p>
 				</div>
 			</div>
@@ -207,8 +207,8 @@ Erstellung und Veröffentlichung 2010
 				</div>
 				<div class="large-12 column">
 					<h1>Website Ilchmann Fördertechnik</h1>
-					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
-Erstellung und Veröffentlichung 2010
+					<p>Konzeption, Design, Bildwelt, Programmierung, SEO, CMS, Aktualisierung<br>
+					&nbsp;
 					</p>
 				</div>
 			</div>
@@ -221,8 +221,8 @@ Erstellung und Veröffentlichung 2010
 				</div>
 				<div class="large-12 column">
 					<h1>Website Wohnen in Rüsselsheim</h1>
-					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
-Erstellung und Veröffentlichung 2010
+					<p>Konzeption, Design, Bildwelt, Slideshow, Programmierung, CMS, Aktualisierung<br>
+					&nbsp;
 					</p>
 				</div>
 			</div>
@@ -235,8 +235,8 @@ Erstellung und Veröffentlichung 2010
 				</div>
 				<div class="large-12 column">
 					<h1>Website Probike Bikestation</h1>
-					<p>Konzeption, Design, Fotoproduktion, Programmierung, SEO, CMS, Erstbefüllung<br>
-Erstellung und Veröffentlichung 2010
+					<p>Konzeption, Design, Bildwelt, Programmierung, CMS<br>
+					&nbsp;
 					</p>
 				</div>
 			</div>
@@ -248,28 +248,14 @@ Erstellung und Veröffentlichung 2010
 
 
 	<?php include ("footer.php"); ?>		
-	<script src="js/foundation.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
-		
 		setTimeout(function(){
 			$('#big_slider,.indicator,.icon-arrow-left,.icon-arrow-right').animate({opacity:1}, 750,function(){
 				$('div[bg]').addClass('always');	
 			});
 		},100);
-		$('#gn-menu').remove();
 	});
-	</script>
-	<script>
-		$(document).foundation();
-  	</script>
-  	<script src="js/classie.js"></script>
-	<script src="js/gnmenu.js"></script>
-	<script>
-		new gnMenu( document.getElementById( 'gn-menu' ) );
-
-
-		$('#gn-menu').addClass('other_all')
 	</script>
 </body>
 </html>

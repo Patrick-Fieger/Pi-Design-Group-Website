@@ -8,7 +8,7 @@
 		</ul>
 </header>
 
-<ul id="gn-menu" class="gn-menu-main">
+<!-- <ul id="gn-menu" class="gn-menu-main">
 	<li class="gn-trigger">
 		<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
 		<nav class="gn-menu-wrapper">
@@ -23,7 +23,7 @@
 					<li><a href="kontakt.php" class="gn-icon">Kontakt</a></li>
 					<li><a href="impressum.php" class="gn-icon">Impressum</a></li>
 				</ul>
-			</div><!-- /gn-scroller -->
+			</div>
 		</nav>
 	</li>
-</ul>
+</ul> -->
