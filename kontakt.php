@@ -52,7 +52,7 @@
 	}
 
 	.text{
-		margin-top: 20px;
+		/*margin-top: 20px;*/
 		width: 446px;
 	}
 
@@ -63,7 +63,7 @@
 	.website_wrapper{
 		opacity: 0;
 		position: fixed;
-		bottom: 405px;
+		bottom: 399px;
 		left: 50%;
 		margin-left: -510px;
 		z-index: 1000;
@@ -99,7 +99,7 @@
 				<div class="websites active">
 				<h1 style="margin-bottom:20px">Kontakt</h1>
 				<p>
-				<span class="bold">Pi Design Group</span><br>
+				<span>PI DESIGN GROUP</span><br>
 				Im Hauptbahnhof 20<br>
 					Eingangshalle Hauptbahnhof<br>
 					64293 Darmstadt
@@ -108,7 +108,7 @@
 				Fax. 06151. 90677-93
 				</p>
 
-				<p>E-mail: <a class="maillink" href="mailto:info@pi-design.de">info@pi-design.de</a></p>
+				<p>E-Mail: <a class="maillink bold" href="mailto:info@pi-design.de"><strong>info@pi-design.de</strong></a></p>
 				
 
 			

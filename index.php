@@ -65,6 +65,14 @@
 		
 			margin-top: -23px;
 		}
+
+		.menu_resp{
+			bottom: -440px;
+		}
+
+		.menu_resp_open{
+			bottom: 10px;
+		}
 		
 	</style>
 </head>

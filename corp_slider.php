@@ -70,23 +70,61 @@
 	}
 
 	.logos{
-		width:1080px !important;
+		width:700px !important;
 		margin-top: 45px !important;
 		padding-bottom: 40px;
+		margin: 0 auto;
 	}
 
 	.logos a{
 		float:left;
 		width: 160px;
-		height: 160px; 
+		height: 160px;
 		-webkit-transition: opacity 0.3s;
 		-moz-transition: opacity 0.3s;
 		-o-transition: opacity 0.3s;
 		transition: opacity 0.3s;
-		margin: 0 20px 20px 0px;
+		margin: 0 15px 15px 0px;
 		-webkit-box-shadow: 3px 1px 16px -5px rgba(0,0,0,0.5);
         -moz-box-shadow: 3px 1px 16px -5px rgba(0,0,0,0.5);
 		box-shadow: 3px 1px 16px -5px rgba(0,0,0,0.5);
+	}
+
+/*	.logos a:nth-child(6),
+	.logos a:nth-child(12){
+		margin: 0 20px 20px 0px;
+	}
+
+	.logo_slider{
+		width: 60px;
+		margin: 0 auto;
+	}
+
+	.logo_slider div{
+		float: left;
+		background: #ccc;
+		text-indent: -9999px;
+		display: block;
+		width: 10px;
+		height: 10px;
+		margin: 0 5px;
+		outline: 0;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		-ms-transition: all 0.3s;
+	}*/
+
+	.logo_slider div.active{
+		background: #555;
+	}
+
+	.logo_slider div:hover{
+		background: #555;
+		cursor: pointer;
 	}
 
 	.withshadow{
@@ -98,6 +136,78 @@
 	.logos a:hover{
 		opacity: 0.6;
 	}
+
+
+	@media only screen and (max-width: 1200px){
+		/*.logos{
+			width: 600px !important;
+			margin: 0 auto;
+		}
+		.logos a{
+			width: 140px;
+			height: 140px;
+			margin: 0 10px 10px 0px;
+		}*/
+
+
+	}
+
+	@media only screen and (max-width: 1200px){
+		#big_slider .img_wrapper,
+		.more_link_wrapper{
+			width: 900px !important;
+		}
+
+/*		#big_slider .row{
+			margin-top: 50px !important;	
+		}*/
+		
+
+		/*.logos{
+			width:350px !important;
+			overflow: hidden;
+			margin: 0 auto;
+		}
+
+		.logos_inner{
+			width: 1090px;
+			float: left;
+		}*/
+
+	}
+	@media only screen and (max-width: 1024px){
+		.logos a{
+			width: 140px;
+			height: 140px;
+		}	
+		.logos {
+			width: 620px !important;
+		}
+	}
+	
+
+	@media only screen and (max-width: 800px){
+		#big_slider .img_wrapper,
+		.more_link_wrapper{
+			width: 600px !important;
+		}
+	}
+
+	@media only screen and (max-width: 600px){
+		#big_slider .img_wrapper,
+		.more_link_wrapper{
+			width: 400px !important;
+		}
+	}
+
+	.menu_resp{
+		bottom: -440px;
+	}
+
+	.menu_resp_open{
+		bottom: 10px;
+	}
+
 
 	</style>
 </head>
@@ -118,34 +228,42 @@
 	
 	<div id="big_slider" class="mainslider">
 		<div id="big_slider_inner">
-			<div class="row">
+			<div class="row" style="top:-13px">
 				<div class="large-12 column">
-					<div class="img_wrapper logos">
-
-						<a expo="1" href="#"><img src="img/slider/ci/einzeln/Hochheim.png"></a>
-						<a expo="2" href="#"><img src="img/slider/ci/einzeln/fliesenwunsch.png"></a>
-						<a expo="3" href="#"><img src="img/slider/ci/einzeln/horlache.png"></a>
-						<a expo="4" href="#"><img src="img/slider/ci/einzeln/konsens.png"></a>
-						<a expo="5" href="#"><img src="img/slider/ci/einzeln/gewobau.png"></a>
-						<a expo="6" href="#"><img src="img/slider/ci/einzeln/rheingau.png"></a>
-						<a expo="7" href="#"><img src="img/slider/ci/einzeln/saubermacher.png"></a>
-						<a expo="8" href="#"><img src="img/slider/ci/einzeln/eltville.png"></a>
-						<a expo="9" href="#"><img src="img/slider/ci/einzeln/texttech.png"></a>
-						<a expo="10" href="#"><img src="img/slider/ci/einzeln/cware.png"></a>
-						<a expo="11" href="#"><img src="img/slider/ci/einzeln/rescnet.png"></a>
-						<a expo="12" href="#"><img src="img/slider/ci/einzeln/conarte.png"></a>
-					
+					<div class="img_wrapper">
+						<div class="logos">
+							<div class="logos_inner">
+								<a expo="1" href="#"><img src="img/slider/ci/einzeln/Hochheim.png"></a>
+								<a expo="2" href="#"><img src="img/slider/ci/einzeln/fliesenwunsch.png"></a>
+								<a expo="3" href="#"><img src="img/slider/ci/einzeln/horlache.png"></a>
+								<a expo="4" href="#"><img src="img/slider/ci/einzeln/konsens.png"></a>
+								<a expo="5" href="#"><img src="img/slider/ci/einzeln/gewobau.png"></a>
+								<a expo="6" href="#"><img src="img/slider/ci/einzeln/rheingau.png"></a>
+								<a expo="7" href="#"><img src="img/slider/ci/einzeln/saubermacher.png"></a>
+								<a expo="8" href="#"><img src="img/slider/ci/einzeln/eltville.png"></a>
+								<a expo="9" href="#"><img src="img/slider/ci/einzeln/texttech.png"></a>
+								<a expo="10" href="#"><img src="img/slider/ci/einzeln/cware.png"></a>
+								<a expo="11" href="#"><img src="img/slider/ci/einzeln/rescnet.png"></a>
+								<a expo="12" href="#"><img src="img/slider/ci/einzeln/conarte.png"></a>
+							</div>
+						</div>
 					</div>
 				</div>
+				<!-- <div class="logo_slider">
+					<div class="active"></div>
+					<div></div>
+					<div></div>
+				</div> -->
+
 				<div class="large-12 column">
-					<h1 style="margin-top:89px;">Logos und Brands</h1>
+					<h1 style="margin-top:9px;">Logos und Brands</h1>
 					<p>Logo- und Markenentwicklung für Städte, Unternehmen und Institutionen.<br>
 Stärkung von Profil, Wiedererkennungswert, Markenbindung und Akzeptanz. </p>
 				</div>
 			</div>
 
 
-			<div class="row" style="top:0px">
+			<div class="row spezialpadding" style="top:73px">
 				<div class="large-12 column">
 					<div style="width:990px" class="img_wrapper">
 						<img  src="img/slider/ci/briefpapier.png">
@@ -161,15 +279,15 @@ Vorlagengestaltung für externe und interne Post, Formulare sowie Umschläge.
 
 
 
-			<div class="row" style="top:-5px;">
+			<div class="row spezialpadding" style="top:67px;">
 				<div class="large-12 column">
 					<div class="img_wrapper">
 						<img src="img/slider/ci/cihandbuecher.png">
 
 						<div class="more_link_wrapper">
-							<div class="column large-4"><a expo="13" href="#">mehr ></a></div>
-							<div class="column large-4"><a expo="14" href="#">mehr ></a></div>
-							<div class="column large-4"><a expo="15" href="#">mehr ></a></div>
+							<div class="column large-4 small-4 middle-4"><a expo="13" href="#">mehr ></a></div>
+							<div class="column large-4 small-4 middle-4"><a expo="14" href="#">mehr ></a></div>
+							<div class="column large-4 small-4 middle-4"><a expo="15" href="#">mehr ></a></div>
 						</div>
 					</div>
 				</div>
@@ -181,7 +299,7 @@ und konsistenten Verwendung definierter Gestaltungsmuster und -vorlagen.
 				</div>
 			</div>
 
-			<div class="row" style="top:-14px;">
+			<div class="row spezialpadding" style="top:59px;">
 				<div class="large-12 column">
 					<div style="width:1065px" class="img_wrapper">
 						<img src="img/slider/ci/markenkultur.png" style="margin-left: -50px;">
@@ -203,9 +321,9 @@ und konsistenten Verwendung definierter Gestaltungsmuster und -vorlagen.
 		<div id="big_slider_inner">
 			<div class="row" expo="1">
 				<div class="large-12 column">
-					<div style="width:402px" class="img_wrapper">
+					<div style="width:402px !important" class="img_wrapper">
 						<img class="withshadow" src="img/slider/ci/einzeln/Hochheim.png">
-						<div class="more_link_wrapper" style="width:402px;margin-top:20px">
+						<div class="more_link_wrapper" style="width:402px !important;margin-top:20px">
 							<a close href="#">zurück zur Übersicht</a>
 						</div>
 					</div>
@@ -220,9 +338,9 @@ Geschäftsausstattung und diversen Printmedien wie dem Theaterkalender Hochheim.
 
 			<div class="row" expo="2">
 				<div class="large-12 column">
-					<div style="width:402px" class="img_wrapper">
+					<div style="width:402px !important" class="img_wrapper">
 						<img class="withshadow" src="img/slider/ci/einzeln/fliesenwunsch.png">
-						<div class="more_link_wrapper" style="width:402px;margin-top:20px">
+						<div class="more_link_wrapper" style="width:402px !important;margin-top:20px">
 							<a close href="#">zurück zur Übersicht</a>
 						</div>
 					</div>
@@ -236,9 +354,9 @@ Geschäftsausstattung, Aussenwerbung, Printmedien und Website.</p>
 
 			<div class="row" expo="3">
 				<div class="large-12 column">
-					<div style="width:402px" class="img_wrapper">
+					<div style="width:402px !important" class="img_wrapper">
 						<img class="withshadow" src="img/slider/ci/einzeln/horlache.png">
-						<div class="more_link_wrapper" style="width:402px;margin-top:20px">
+						<div class="more_link_wrapper" style="width:402px !important;margin-top:20px">
 							<a close href="#">zurück zur Übersicht</a>
 						</div>
 					</div>
@@ -253,9 +371,9 @@ gewobau Rüsselsheim am Naherholungsgebiet Horlachegraben.</p>
 
 			<div class="row" expo="4">
 				<div class="large-12 column">
-					<div style="width:402px" class="img_wrapper">
+					<div style="width:402px !important" class="img_wrapper">
 						<img class="withshadow" src="img/slider/ci/einzeln/konsens.png">
-						<div class="more_link_wrapper" style="width:402px;margin-top:20px">
+						<div class="more_link_wrapper" style="width:402px !important;margin-top:20px">
 							<a close href="#">zurück zur Übersicht</a>
 						</div>
 					</div>
@@ -271,9 +389,9 @@ Geschäftsausstattung und Entwurf diverser Printmedien.
 
 			<div class="row" expo="5">
 				<div class="large-12 column">
-					<div style="width:402px" class="img_wrapper">
+					<div style="width:402px !important" class="img_wrapper">
 						<img class="withshadow" src="img/slider/ci/einzeln/gewobau.png">
-						<div class="more_link_wrapper" style="width:402px;margin-top:20px">
+						<div class="more_link_wrapper" style="width:402px !important;margin-top:20px">
 							<a close href="#">zurück zur Übersicht</a>
 						</div>
 					</div>
@@ -291,9 +409,9 @@ Geschäftsausstattung und Entwurf diverser Printmedien.
 
 			<div class="row" expo="6">
 				<div class="large-12 column">
-					<div style="width:402px" class="img_wrapper">
+					<div style="width:402px !important" class="img_wrapper">
 						<img class="withshadow" src="img/slider/ci/einzeln/rheingau.png">
-						<div class="more_link_wrapper" style="width:402px;margin-top:20px">
+						<div class="more_link_wrapper" style="width:402px !important;margin-top:20px">
 							<a close href="#">zurück zur Übersicht</a>
 						</div>
 					</div>
@@ -309,9 +427,9 @@ die Tourismusdestination mit Corporate Design, Imagebroschüre, Aussenwerbung un
 
 			<div class="row" expo="7">
 				<div class="large-12 column">
-					<div style="width:402px" class="img_wrapper">
+					<div style="width:402px !important" class="img_wrapper">
 						<img class="withshadow" src="img/slider/ci/einzeln/saubermacher.png">
-						<div class="more_link_wrapper" style="width:402px;margin-top:20px">
+						<div class="more_link_wrapper" style="width:402px !important;margin-top:20px">
 							<a close href="#">zurück zur Übersicht</a>
 						</div>
 					</div>
@@ -327,9 +445,9 @@ im Zuge der gestalterischen Umsetzung einer Fuhrparkbeschriftung.
 
 			<div class="row" expo="8">
 				<div class="large-12 column">
-					<div style="width:402px" class="img_wrapper">
+					<div style="width:402px !important" class="img_wrapper">
 						<img class="withshadow" src="img/slider/ci/einzeln/eltville.png">
-						<div class="more_link_wrapper" style="width:402px;margin-top:20px">
+						<div class="more_link_wrapper" style="width:402px !important;margin-top:20px">
 							<a close href="#">zurück zur Übersicht</a>
 						</div>
 					</div>
@@ -345,9 +463,9 @@ mit CD-Styleguide, Geschäftsausstattung, Aussenwerbung und diversen Printmedien
 
 			<div class="row" expo="9">
 				<div class="large-12 column">
-					<div style="width:402px" class="img_wrapper">
+					<div style="width:402px !important" class="img_wrapper">
 						<img class="withshadow" src="img/slider/ci/einzeln/texttech.png">
-						<div class="more_link_wrapper" style="width:402px;margin-top:20px">
+						<div class="more_link_wrapper" style="width:402px !important;margin-top:20px">
 							<a close href="#">zurück zur Übersicht</a>
 						</div>
 					</div>
@@ -365,9 +483,9 @@ mit Geschäftsausstattung und diversen Printmedien.
 
 			<div class="row" expo="10">
 				<div class="large-12 column">
-					<div style="width:402px" class="img_wrapper">
+					<div style="width:402px !important" class="img_wrapper">
 						<img class="withshadow" src="img/slider/ci/einzeln/cware.png">
-						<div class="more_link_wrapper" style="width:402px;margin-top:20px">
+						<div class="more_link_wrapper" style="width:402px !important;margin-top:20px">
 							<a close href="#">zurück zur Übersicht</a>
 						</div>
 					</div>
@@ -383,9 +501,9 @@ mit Geschäftsausstattung, Website und diversen Printmedien.
 
 			<div class="row" expo="11">
 				<div class="large-12 column">
-					<div style="width:402px" class="img_wrapper">
+					<div style="width:402px !important" class="img_wrapper">
 						<img class="withshadow" src="img/slider/ci/einzeln/rescnet.png">
-						<div class="more_link_wrapper" style="width:402px;margin-top:20px">
+						<div class="more_link_wrapper" style="width:402px !important;margin-top:20px">
 							<a close href="#">zurück zur Übersicht</a>
 						</div>
 					</div>
@@ -402,9 +520,9 @@ mit Geschäftsausstattung und diversen Printmedien.
 
 			<div class="row" expo="12">
 				<div class="large-12 column">
-					<div style="width:402px" class="img_wrapper">
+					<div style="width:402px !important" class="img_wrapper">
 						<img class="withshadow" src="img/slider/ci/einzeln/conarte.png">
-						<div class="more_link_wrapper" style="width:402px;margin-top:20px">
+						<div class="more_link_wrapper" style="width:402px !important;margin-top:20px">
 							<a close href="#">zurück zur Übersicht</a>
 						</div>
 					</div>
@@ -495,6 +613,20 @@ Formulare, Anzeigen sowie für Printmedien.
 				$('div[bg]').addClass('always');	
 			});
 		},100);
+
+		// $(window).on('resize orientationchange',function(){
+
+		// 	if($(window).width()<=1024){
+		// 		$('#big_slider').addClass('removebottom');
+		// 		$('#big_slider').css('margin-top','-'+$('#big_slider').height()/2-20+'px');
+		// 	}else{
+		// 		$('#big_slider').removeClass('removebottom');
+		// 		$('#big_slider').css('margin-top','');
+		// 	}
+
+		// })
+
+
 	});
 	</script>
 

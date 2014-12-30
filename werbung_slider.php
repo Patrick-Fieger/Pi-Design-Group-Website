@@ -63,6 +63,36 @@
 		margin-left: -68px;
 	}
 
+	@media only screen and (max-width: 1150px){
+		#big_slider .img_wrapper{
+			width: 840px !important;
+		}
+
+		#big_slider .spezialwidth{
+			width: 800px !important;
+		}
+	}
+
+	@media only screen and (max-width: 850px){
+		#big_slider .img_wrapper{
+			width: 600px !important;
+		}
+	}
+
+	@media only screen and (max-width: 700px){
+		#big_slider .img_wrapper{
+			width: 400px !important;
+		}
+	}
+
+	.menu_resp{
+		bottom: -440px;
+	}
+
+	.menu_resp_open{
+		bottom: 10px;
+	}
+
 /*	#big_slider .img_wrapper{
 		width: 637px;
 	}*/
@@ -127,7 +157,7 @@ Website, Online-Newsletter und -Gewinnspiele sowie POP-Aktionen (Point of Purcha
 
 			<div class="row">
 				<div class="large-12 column">
-					<div style="width: 840px;" class="img_wrapper">
+					<div style="width: 840px;" class="img_wrapper spezialwidth">
 						<img src="img/slider/werbung/pos.png">
 					</div>
 				</div>

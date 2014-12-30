@@ -73,6 +73,12 @@
 		opacity: 1 !important;
 	}
 
+	@media only screen and (max-width: 700px){
+		.img{
+			display: none;
+		}
+	}
+
 	</style>
 </head>
 <body>

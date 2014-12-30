@@ -61,7 +61,7 @@
 	.website_wrapper{
 		opacity: 0;
 		position: fixed;
-		bottom: 350px;
+		bottom: 347px;
 		left: 50%;
 		margin-left: -511px;
 		z-index: 1000;

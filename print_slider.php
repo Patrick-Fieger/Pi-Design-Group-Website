@@ -62,6 +62,69 @@
 		margin-left: -85px;
 	}
 
+
+	@media only screen and (max-width: 1200px){
+		#big_slider .img_wrapper,
+		.more_link_wrapper{
+			width: 900px !important;
+		}
+
+		#big_slider .img_wrapper.spezial_package{
+			width: 801px !important;
+		}
+	}
+
+
+	@media only screen and (max-width: 1000px){
+		#big_slider .img_wrapper,
+		.more_link_wrapper,
+		#big_slider .img_wrapper.spezial_package{
+			width: 700px !important;
+		}
+	}
+
+	@media only screen and (max-width: 800px){
+		#big_slider .img_wrapper,
+		.more_link_wrapper,
+		#big_slider .img_wrapper.spezial_package{
+			width: 600px !important;
+		}
+	}
+
+	@media only screen and (max-width: 700px){
+		#big_slider .img_wrapper,
+		.more_link_wrapper,
+		#big_slider .img_wrapper.spezial_package{
+			width: 400px !important;
+		}
+	}
+
+/*	@media only screen and (max-width: 768px){
+		#big_slider .img_wrapper,
+		.more_link_wrapper{
+			width: 900px !important;
+		}
+	}*/
+
+/*	@media only screen and (max-width: 730px){
+		#big_slider .img_wrapper{
+			width: 500px !important;
+		}
+	}
+
+	@media only screen and (max-width: 650px){
+		#big_slider .img_wrapper{
+			width: 420px !important;
+		}
+	}*/
+	.menu_resp{
+		bottom: -440px;
+	}
+
+	.menu_resp_open{
+		bottom: 10px;
+	}
+
 	</style>
 </head>
 <body>
@@ -81,15 +144,15 @@
 	
 	<div id="big_slider" class="mainslider">
 		<div id="big_slider_inner">
-			<div class="row">
+			<div class="row" style="top:22px;">
 				<div class="large-12 column">
 					<div class="img_wrapper">
 						<img src="img/slider/print/imagebroschueren.png">
 
 						<div class="more_link_wrapper">
-							<div class="column large-4"><a expo="1" href="#">mehr ></a></div>
-							<div class="column large-4"><a expo="2" href="#">mehr ></a></div>
-							<div class="column large-4"><a expo="3" href="#">mehr ></a></div>
+							<div class="column large-4 small-4 middle-4"><a expo="1" href="#">mehr ></a></div>
+							<div class="column large-4 small-4 middle-4"><a expo="2" href="#">mehr ></a></div>
+							<div class="column large-4 small-4 middle-4"><a expo="3" href="#">mehr ></a></div>
 						</div>
 					</div>
 				</div>
@@ -104,15 +167,15 @@ Fullservice-Projektabwicklungen für Unternehmen, Städte und Insitutionen. </p>
 
 
 
-			<div class="row">
+			<div class="row" style="top:22px;">
 				<div class="large-12 column">
 					<div class="img_wrapper">
 						<img src="img/slider/print/magazine.png">
 
 						<div class="more_link_wrapper">
-							<div class="column large-4"><a expo="4" href="#">mehr ></a></div>
-							<div class="column large-4"><a expo="5" href="#">mehr ></a></div>
-							<div class="column large-4"><a expo="6" href="#">mehr ></a></div>
+							<div class="column large-4 small-4 middle-4"><a expo="4" href="#">mehr ></a></div>
+							<div class="column large-4 small-4 middle-4"><a expo="5" href="#">mehr ></a></div>
+							<div class="column large-4 small-4 middle-4"><a expo="6" href="#">mehr ></a></div>
 						</div>
 					</div>
 				</div>
@@ -134,9 +197,9 @@ neben den üblichen Konzept- und Designaufgaben auch redaktionelle Kompetenzen, 
 					<div style="width:906px" class="img_wrapper">
 						<img src="img/slider/print/ordnerd.png">
 
-						<div style="width:906px" class="more_link_wrapper">
-							<div class="column large-6"><a expo="7" href="#">mehr ></a></div>
-							<div class="column large-6"><a expo="8" href="#">mehr ></a></div>
+						<div style="width:906px;margin-top:20px;" class="more_link_wrapper">
+							<div class="column large-6 middle-6 small-6"><a expo="7" href="#">mehr ></a></div>
+							<div class="column large-6 middle-6 small-6"><a expo="8" href="#">mehr ></a></div>
 						</div>
 					</div>
 				</div>
@@ -151,7 +214,7 @@ Umsetzung inklusive Produktion und Konfektionierung der Inhaltsseiten.
 			</div>
 
 
-			<div class="row" style="top:15px;">
+			<div class="row" style="top:38px;">
 				<div class="large-12 column">
 					<div style="width:947px" class="img_wrapper">
 						<img  src="img/slider/print/wella.png">
@@ -166,9 +229,9 @@ Umsetzung inklusive Produktion und Konfektionierung der Inhaltsseiten.
 			</div>
 
 
-			<div class="row" style="top:15px;">
+			<div class="row" style="top:38px;">
 				<div class="large-12 column">
-					<div style="width:801px" class="img_wrapper">
+					<div style="width:801px" class="img_wrapper spezial_package">
 						<img src="img/slider/print/verpackung.png">
 					</div>
 				</div>
